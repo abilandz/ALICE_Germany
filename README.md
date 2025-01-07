@@ -7,7 +7,7 @@ Author list consisting of ALICE members affiliated with institutes and universit
 
 
 
-Remarks on compilation:
+**Remarks on compilation:**
 
 1. The author list is maintained in the file "DPG_format.tex" and it was compiled using the LaTeX style file "scdpg.cls" provided on DPG 2025 website at the following link https://www.dpg-tagung.de/r25/infoclass.html?language=de
 
@@ -27,7 +27,7 @@ Remarks on compilation:
 
 
 
-Remarks on submission to the DPG website:
+**Remarks on submission to the DPG website:**
 
 1. Create directly on the DPG website a dummy author list for ALICE Germany Collaboration, merely to obtain the modification key for it (received via email)
 2. In the final version of file "DPG_format.tex" inject an \scKey{...} with the key for modifications within curly braces, somewhere within the \begin-\end-block
@@ -36,6 +36,6 @@ Remarks on submission to the DPG website:
 
 
 
-Other remarks:
+**Other remarks:**
 
 1. The author list of all ALICE members can be generated in LaTeX, pdf and few other formats and exported from this link: https://alice-glance.cern.ch/alice/membership/members/author_list.php
