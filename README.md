@@ -1,5 +1,5 @@
 # ALICE_Germany
-Last update: 20260120-1
+Last update: 20260125
 
 
 
@@ -29,8 +29,8 @@ Author list consisting of ALICE members affiliated with institutes and universit
 
 **Submission to the DPG website:**
 
-1. Create directly on the DPG website a dummy author list for "ALICE Germany" Collaboration, merely to obtain the modification key for it (received via email)
-2. In the final version of file "DPG_format.tex" inject an \scKey{...} with the key for modifications within curly braces, somewhere **within** the \begin{...} and \end{...} block
+1. Create directly on the DPG website a dummy author list for "ALICE Germany" Collaboration, merely to obtain the modification key for it (received via automatically generated email)
+2. In the final version of file "DPG_format.tex" insert the line ```\scKey{...}``` somewhere **within** the ```\begin{scCollaboration}``` and ```\end{scCollaboration}```, and inject the modification key within curly braces
 3. Update on the DPG website the dummy author list with "DPG_format.tex" edited as in Step 2 above &mdash;  go to the Abstract submission, and the relevant section to upload modified LaTeX file this way is entitled _"Alternative 1: Restore an already filled form"_
 4. For any future update of "DPG_format.tex" follow the same procedure, just modification key will need to be updated
 
@@ -44,9 +44,9 @@ Author lists used at the previous DPG meetings are tagged. For instance, to retr
 $ git clone https://github.com/abilandz/ALICE_Germany ALICE_Germany
 $ cd ALICE_Germany
 $ git checkout "DPG-2025"
-
-# To see the list of all tags in the repository, execute: git tag
 ```
+
+To see the list of all tags in this repository, execute in its top-level directory: **git tag**
 
 
 
